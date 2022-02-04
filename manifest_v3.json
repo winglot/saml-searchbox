@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "saml-searchbox",
+  "author": "Wojciech Inglot",
+  "homepage_url": "https://github.com/winglot/saml-searchbox",
+  "version": "1.0.0",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://signin.aws.amazon.com/saml",
+        "https://signin.amazonaws-us-gov.com/saml"
+      ],
+      "js": [
+        "saml-searchbox.js"
+      ]
+    }
+  ]
+}
