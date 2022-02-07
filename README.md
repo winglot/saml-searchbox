@@ -8,9 +8,14 @@ It is inspired by [https://github.com/speshak/aws-saml-search](https://github.co
 I wanted something similar but without the `bootstrap` and `jquery` dependency. 
 This allows the code to be short and easy to inspect and was mandatory since it is being used in a very sensitive place - AWS SAML login page.
 
-### Installation and Development
+### Installation
 
-There are no official releases. Please use methods provided below.
+Official packages are available in Mozilla Addon and Chrome Web Store:
+
+  - [AWS SAML SearchBox for Chrome](https://chrome.google.com/webstore/detail/saml-searchbox/cihikhjoepilepkiahnoappcljdnfnbk)
+  - [AWS SAML SearchBox for Firefox](https://addons.mozilla.org/en-US/firefox/addon/aws-saml-searchbox/)
+
+### Development
 
 #### FireFox
 
